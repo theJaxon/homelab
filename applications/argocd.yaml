@@ -12,5 +12,5 @@ spec:
     server: https://kubernetes.default.svc
   source:
     path: .
-    repoURL: http://192.168.100.10:3000/vagrant/argocd.git
+    repoURL: https://github.com/theJaxon/homelab.git
     targetRevision: main
