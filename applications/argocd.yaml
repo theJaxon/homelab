@@ -14,3 +14,10 @@ spec:
     path: .
     repoURL: https://github.com/theJaxon/homelab.git
     targetRevision: main
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
+      - ServerSideApply=true
